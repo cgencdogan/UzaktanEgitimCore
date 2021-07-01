@@ -1,5 +1,4 @@
 ﻿using Core.Entities;
-using Core.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,13 +12,15 @@ namespace UzaktanEgitim.Entities.Concrete
         public int CourseId { get; set; }
         public string CourseName { get; set; }
         public string Description { get; set; }
-        public int CategoryId { get; set; }
         public string CoverImgPath { get; set; }
-        public int CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public int UpdatedBy { get; set; }
-        public DateTime UpdatedDate { get; set; }
 
-        public virtual ICollection<AppUser> Users { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+        public DateTime? LastModifiedDate { get; set; }
+        
+        public virtual ICollection<UserCourse> UserCourses { get; set; }
+        public virtual ICollection<Lesson> Lessons { get; set; }
     }
 }

@@ -10,5 +10,6 @@ namespace UzaktanEgitim.DAL.Abstract
 {
     public interface IUserCourseDal : IEntityRepository<UserCourse>
     {
+        List<UserCourse> GetUserCoursesByUserId(int id);
     }
 }

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{BCF6E045-0938-4E8D-A6DF-DB254247EEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{BCF6E045-0938-4E8D-A6DF-DB254247EEB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UzaktanEgitim.Business", "UzaktanEgitim.Business\UzaktanEgitim.Business.csproj", "{F6A9E485-6CE6-4E85-A5D9-8BFB297AA6CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzaktanEgitim.Business", "UzaktanEgitim.Business\UzaktanEgitim.Business.csproj", "{F6A9E485-6CE6-4E85-A5D9-8BFB297AA6CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UzaktanEgitim.DAL", "UzaktanEgitim.DAL\UzaktanEgitim.DAL.csproj", "{6B4D7E3D-B238-4148-A8F4-37E652FD954B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzaktanEgitim.DAL", "UzaktanEgitim.DAL\UzaktanEgitim.DAL.csproj", "{6B4D7E3D-B238-4148-A8F4-37E652FD954B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UzaktanEgitim.Entities", "UzaktanEgitim.Entities\UzaktanEgitim.Entities.csproj", "{09A6074E-B821-4648-9A47-75402F103A2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzaktanEgitim.Entities", "UzaktanEgitim.Entities\UzaktanEgitim.Entities.csproj", "{09A6074E-B821-4648-9A47-75402F103A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UzaktanEgitim.WebAPI", "UzaktanEgitim.WebAPI\UzaktanEgitim.WebAPI.csproj", "{8ECF0EF2-570A-456B-9094-760EBC07D142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{09A6074E-B821-4648-9A47-75402F103A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A6074E-B821-4648-9A47-75402F103A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09A6074E-B821-4648-9A47-75402F103A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECF0EF2-570A-456B-9094-760EBC07D142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECF0EF2-570A-456B-9094-760EBC07D142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECF0EF2-570A-456B-9094-760EBC07D142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECF0EF2-570A-456B-9094-760EBC07D142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

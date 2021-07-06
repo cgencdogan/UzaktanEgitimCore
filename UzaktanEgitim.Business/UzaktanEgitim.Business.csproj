@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\UzaktanEgitim.DAL\UzaktanEgitim.DAL.csproj" />
+    <ProjectReference Include="..\UzaktanEgitim.Entities\UzaktanEgitim.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
